@@ -1,3 +1,108 @@
+-----求你了别开我源码好不好
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "正在检查",
+    Text = "脚本加载请耐心等待...",
+    Duration = 5,
+})
+
+wait(3)
+
+long = {
+    "idrthhf",
+    "uwbeow3",
+    "ejde1645g",
+    "KD1145149",
+    "sb114514",
+    "Xiaofeng105",
+    "wowowowo45666",
+    "wowowowo45668",
+    "MCQOEJUS1",
+    "Q3Y54188",
+    "cyrcsh",
+    "surprised267",
+    "China20236",
+    "oaoa_237",
+    "reretwyv",
+    "jsbdj07",
+    "ikunzhyfd",
+    "csm123456t",
+    "spring654188",
+    "a18238017765",
+    "aplqndjsv",
+    "mikiQAQ",
+    "miiku4399",
+    "Pieemn",
+    "1345i78",
+    "as30326",
+    "spring654188",
+    "qwertp749",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "ygshwishxjso",
+    "jsshhsbsjdhbsjaka",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""--注意这里不要有逗号
+}
+if table.find(long, game.Players.LocalPlayer.Name) then
+   local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "检测到您("..game.Players.LocalPlayer.Name..")已经被加入白名单",
+    Duration = 5,
+})
 local screenGui = Instance.new("ScreenGui")
 screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -12240,3 +12345,14 @@ end)
 
    end
 end)
+
+    else 
+  setclipboard("719247153")
+      local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "检测结果",
+    Text = "已自动复制QQ群群号，请去买白名单",
+    Duration = 5,
+})
+end
+-------你看到这干嘛，别二改我就行
